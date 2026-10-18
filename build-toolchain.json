@@ -1,0 +1,14 @@
+{
+  "node": "24.14.1",
+  "npm": "11.11.0",
+  "javaMajor": 21,
+  "buildRoot": "C:\\mp-workflow",
+  "sdkFiles": [
+    "platforms/android-36/android.jar",
+    "build-tools/36.0.0/aapt.exe",
+    "build-tools/35.0.0/aapt.exe",
+    "ndk/27.1.12297006/source.properties",
+    "cmake/3.22.1/bin/ninja.exe",
+    "cmake/3.30.5/bin/cmake.exe"
+  ]
+}

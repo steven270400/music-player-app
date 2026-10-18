@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "syntheticOnly": true,
+  "generator": "scripts/generate-audio-fixtures.py",
+  "encoderVersion": "ffmpeg version 9.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "encoderSha256": "72a489eccd008c2ec2c0a5856c5c75bc3d8bbfa90166c4566865c246445e6aa3",
+  "androidValidation": "NOT RUN",
+  "files": [
+    {
+      "path": "queue/01 English 440Hz.mp3",
+      "valid": true,
+      "frequencyHz": 440,
+      "requestedDurationMs": 12000,
+      "probedDurationMs": 12000,
+      "codec": "mp3",
+      "channels": 2,
+      "artistPresent": true,
+      "encoderOptions": [
+        "-b:a",
+        "128k"
+      ],
+      "hostDecode": "PASS",
+      "sha256": "05fe6e5b6cac71c192fa68db8469dd57fd5a42c780a59342a5477914c5e3513c",
+      "bytes": 193204
+    },
+    {
+      "path": "queue/02 简体中文 550Hz.mp3",
+      "valid": true,
+      "frequencyHz": 550,
+      "requestedDurationMs": 12000,
+      "probedDurationMs": 12000,
+      "codec": "mp3",
+      "channels": 2,
+      "artistPresent": false,
+      "encoderOptions": [
+        "-q:a",
+        "3"
+      ],
+      "hostDecode": "PASS",
+      "sha256": "d5e9db231c59839cd1b780ff4128ee0976f169ec339a202072fe2a5b90614044",
+      "bytes": 57482
+    },
+    {
+      "path": "queue/03 繁體中文 660Hz.m4a",
+      "valid": true,
+      "frequencyHz": 660,
+      "requestedDurationMs": 12000,
+      "probedDurationMs": 12000,
+      "codec": "aac",
+      "channels": 2,
+      "artistPresent": true,
+      "encoderOptions": [
+        "-b:a",
+        "128k"
+      ],
+      "hostDecode": "PASS",
+      "sha256": "82ec7477ebda0901fcafc17b8e94825a8d9e15d72913a9d3bdc9193348ce0963",
+      "bytes": 195465
+    },
+    {
+      "path": "formats/Mixed 英文中文.aac",
+      "valid": true,
+      "frequencyHz": 770,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8047,
+      "codec": "aac",
+      "channels": 2,
+      "artistPresent": false,
+      "encoderOptions": [
+        "-b:a",
+        "128k",
+        "-f",
+        "adts"
+      ],
+      "hostDecode": "PASS",
+      "sha256": "1907a05c7d3a81df28c63b24505409a10bf35d98a90fd8d0199091f720544c9c",
+      "bytes": 131011
+    },
+    {
+      "path": "formats/Mono.flac",
+      "valid": true,
+      "frequencyHz": 330,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8000,
+      "codec": "flac",
+      "channels": 1,
+      "artistPresent": true,
+      "encoderOptions": [],
+      "hostDecode": "PASS",
+      "sha256": "96a50ca594ed3ecaac7de7ea7590c0289f24d49bc76cf6b0057f1c0652018ee2",
+      "bytes": 132047
+    },
+    {
+      "path": "formats/Stereo.flac",
+      "valid": true,
+      "frequencyHz": 385,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8000,
+      "codec": "flac",
+      "channels": 2,
+      "artistPresent": false,
+      "encoderOptions": [],
+      "hostDecode": "PASS",
+      "sha256": "5e9fd9e0746e5dc065b0a082da3c2f827fb4cc169574cbd3b6db4d00b860ce34",
+      "bytes": 130005
+    },
+    {
+      "path": "formats/PCM mono.wav",
+      "valid": true,
+      "frequencyHz": 220,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8000,
+      "codec": "pcm_s16le",
+      "channels": 1,
+      "artistPresent": false,
+      "encoderOptions": [],
+      "hostDecode": "PASS",
+      "sha256": "963cc34c8878f4d466855b921fa4ca06b8cdb91157066624efb4280493bbfb42",
+      "bytes": 705678
+    },
+    {
+      "path": "formats/PCM stereo.wav",
+      "valid": true,
+      "frequencyHz": 275,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8000,
+      "codec": "pcm_s16le",
+      "channels": 2,
+      "artistPresent": true,
+      "encoderOptions": [],
+      "hostDecode": "PASS",
+      "sha256": "6bdd9b0e0a99d3ab9e9c07aeae654ec409a40eaf85b8f587f1c0f9a5ff6f0d2f",
+      "bytes": 1411338
+    },
+    {
+      "path": "formats/Vorbis.ogg",
+      "valid": true,
+      "frequencyHz": 880,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8000,
+      "codec": "vorbis",
+      "channels": 2,
+      "artistPresent": true,
+      "encoderOptions": [
+        "-q:a",
+        "4"
+      ],
+      "hostDecode": "PASS",
+      "sha256": "fd6029bb4f5404aa266c33d5714e4bdf7172a12c532b6d29086b7f0b4783b87e",
+      "bytes": 26655
+    },
+    {
+      "path": "formats/Opus.ogg",
+      "valid": true,
+      "frequencyHz": 990,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8007,
+      "codec": "opus",
+      "channels": 2,
+      "artistPresent": false,
+      "encoderOptions": [
+        "-b:a",
+        "96k"
+      ],
+      "hostDecode": "PASS",
+      "sha256": "4d02407665176dde5d2972b251c31790b93ebfc2b0f6ef64ea7c920dc2dc662e",
+      "bytes": 120297
+    },
+    {
+      "path": "names/Café 音乐 🎵.mp3",
+      "valid": true,
+      "frequencyHz": 440,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8000,
+      "codec": "mp3",
+      "channels": 2,
+      "artistPresent": true,
+      "encoderOptions": [
+        "-b:a",
+        "128k"
+      ],
+      "hostDecode": "PASS",
+      "sha256": "e7f63861ae757b2c0ed59a7d88db384d7dadee45952dfb5509f95b2f8c3efdc0",
+      "bytes": 129256
+    },
+    {
+      "path": "names/Café 音乐 🎵.mp3",
+      "valid": true,
+      "frequencyHz": 550,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8000,
+      "codec": "mp3",
+      "channels": 2,
+      "artistPresent": true,
+      "encoderOptions": [
+        "-b:a",
+        "128k"
+      ],
+      "hostDecode": "PASS",
+      "sha256": "05e5c840e2a22c1c25e9c63ef1b5cb9287c6fdd8330c0314de3fd211f406b888",
+      "bytes": 129256
+    },
+    {
+      "path": "names/Long filename 很长的音乐文件名 Long filename 很长的音乐文件名 Long filename 很长的音乐文件名 Long filename 很长的音乐文件名 Long filename 很长的音乐文件名 Long filename 很长的音乐文件名 .mp3",
+      "valid": true,
+      "frequencyHz": 660,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8000,
+      "codec": "mp3",
+      "channels": 2,
+      "artistPresent": false,
+      "encoderOptions": [
+        "-b:a",
+        "128k"
+      ],
+      "hostDecode": "PASS",
+      "sha256": "4449a6daabb10e2e759fdfece18284148528dc4963d9ae2212c3ea933830c9f4",
+      "bytes": 129192
+    },
+    {
+      "path": "duplicates/a/Same name 同名.mp3",
+      "valid": true,
+      "frequencyHz": 440,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8000,
+      "codec": "mp3",
+      "channels": 2,
+      "artistPresent": false,
+      "encoderOptions": [
+        "-b:a",
+        "128k"
+      ],
+      "hostDecode": "PASS",
+      "sha256": "7c3f1ccbd8c0f0df72e1ee41e1cca53ebc240b0e5b73c6c856c88f7acbfdbaf3",
+      "bytes": 129192
+    },
+    {
+      "path": "duplicates/b/Same name 同名.mp3",
+      "valid": true,
+      "frequencyHz": 660,
+      "requestedDurationMs": 8000,
+      "probedDurationMs": 8000,
+      "codec": "mp3",
+      "channels": 2,
+      "artistPresent": false,
+      "encoderOptions": [
+        "-b:a",
+        "128k"
+      ],
+      "hostDecode": "PASS",
+      "sha256": "4449a6daabb10e2e759fdfece18284148528dc4963d9ae2212c3ea933830c9f4",
+      "bytes": 129192
+    },
+    {
+      "path": "duration/One hour silence.flac",
+      "valid": true,
+      "frequencyHz": 0,
+      "requestedDurationMs": 3601000,
+      "probedDurationMs": 3601000,
+      "codec": "flac",
+      "channels": 1,
+      "artistPresent": false,
+      "encoderOptions": [],
+      "hostDecode": "PASS",
+      "sha256": "7f09a0021b7714c2f8d7396ec9de5fd54b7e0cd696672d86cfa1b6a2662c0c22",
+      "bytes": 2111737
+    },
+    {
+      "path": "invalid/Not audio.mp3",
+      "valid": false,
+      "hostDecode": "EXPECTED FAILURE",
+      "indexing": "Android may omit this invalid file; do not assume discovery",
+      "sha256": "790fc284dba2847c7be7f481a9610daf41b17025882fa4d447eb6f3fe643f925",
+      "bytes": 42
+    },
+    {
+      "path": "invalid/Empty.wav",
+      "valid": false,
+      "hostDecode": "EXPECTED FAILURE",
+      "indexing": "Android may omit this invalid file; do not assume discovery",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "invalid/Truncated header.flac",
+      "valid": false,
+      "hostDecode": "EXPECTED FAILURE",
+      "indexing": "Android may omit this invalid file; do not assume discovery",
+      "sha256": "fcfb4345b5bdb39accb559c2d53dfe1741333aefbb87800b1ce2c34b05c5d7ee",
+      "bytes": 9
+    },
+    {
+      "path": "invalid/Malformed tag.mp3",
+      "valid": false,
+      "hostDecode": "EXPECTED FAILURE",
+      "indexing": "Android may omit this invalid file; do not assume discovery",
+      "sha256": "b391efd744a8a68549afca0255f7edc3599c88aaefa617d020a12d9e43d62225",
+      "bytes": 26
+    }
+  ],
+  "runtimeScenarios": [
+    "revoke permission",
+    "delete or replace disposable fixture after queue capture",
+    "provider epoch/row identity change",
+    "inject unknown duration through contract test (no valid-file guarantee)",
+    "oversized metadata must be bounded by discovery adapter; expand adversarial fixtures during native validation"
+  ]
+}

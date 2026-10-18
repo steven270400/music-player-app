@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "music-player",
+    "slug": "music-player",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["android"],
+    "scheme": "music-player-dev",
+    "plugins": [
+      "expo-router",
+      "expo-dev-client",
+      ["expo-build-properties", {"android": {"minSdkVersion": 31, "compileSdkVersion": 36, "targetSdkVersion": 36, "buildToolsVersion": "36.0.0"}}]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.local.musicplayer",
+      "allowBackup": false,
+      "blockedPermissions": ["android.permission.RECORD_AUDIO", "android.permission.WRITE_EXTERNAL_STORAGE"],
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

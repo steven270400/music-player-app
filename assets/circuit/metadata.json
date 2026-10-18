@@ -1,0 +1,188 @@
+{
+  "back": {
+    "width": 9,
+    "height": 16,
+    "context": "player",
+    "constant": "imgIconBack"
+  },
+  "next": {
+    "width": 16,
+    "height": 16,
+    "context": "player",
+    "constant": "imgIconNext"
+  },
+  "settings": {
+    "width": 20,
+    "height": 20,
+    "context": "figmaSongs",
+    "constant": "imgIconSettings"
+  },
+  "heart": {
+    "width": 23,
+    "height": 20,
+    "context": "figmaSongs",
+    "constant": "imgIconHeart"
+  },
+  "pause": {
+    "width": 10,
+    "height": 16,
+    "context": "player",
+    "constant": "imgIconPause"
+  },
+  "play": {
+    "width": 13,
+    "height": 16,
+    "context": "paused",
+    "constant": "imgIconPlay"
+  },
+  "search": {
+    "width": 19,
+    "height": 19,
+    "context": "figmaSongs",
+    "constant": "imgIconSearch"
+  },
+  "note": {
+    "width": 19,
+    "height": 21,
+    "context": "figmaSongs",
+    "constant": "imgIconNote"
+  },
+  "list": {
+    "width": 20,
+    "height": 14,
+    "context": "figmaSongs",
+    "constant": "imgIconList"
+  },
+  "refresh": {
+    "width": 18,
+    "height": 20,
+    "context": "figmaSongs",
+    "constant": "imgIconRefresh"
+  },
+  "plus": {
+    "width": 18,
+    "height": 18,
+    "context": "playlists",
+    "constant": "imgIconPlus"
+  },
+  "previous": {
+    "width": 16,
+    "height": 16,
+    "context": "player",
+    "constant": "imgIconPrevious"
+  },
+  "shuffle": {
+    "width": 20,
+    "height": 22,
+    "context": "player",
+    "constant": "imgIconShuffle"
+  },
+  "heartFilled": {
+    "width": 23,
+    "height": 20,
+    "context": "player",
+    "constant": "imgIconHeart"
+  },
+  "check": {
+    "width": 16,
+    "height": 12,
+    "context": "add",
+    "constant": "imgIconCheck"
+  },
+  "panelDark": {
+    "width": 389,
+    "height": 73,
+    "context": "dark",
+    "constant": "imgChamferedPanel"
+  },
+  "repeat": {
+    "width": 20,
+    "height": 22,
+    "context": "player",
+    "constant": "imgIconRepeat"
+  },
+  "up": {
+    "width": 14,
+    "height": 8,
+    "context": "reorder",
+    "constant": "imgIconUp1"
+  },
+  "ringOuter": {
+    "width": 225,
+    "height": 225,
+    "context": "player",
+    "constant": "imgVector5"
+  },
+  "close": {
+    "width": 14,
+    "height": 14,
+    "context": "detail",
+    "constant": "imgIconClose"
+  },
+  "down": {
+    "width": 14,
+    "height": 8,
+    "context": "reorder",
+    "constant": "imgIconDown"
+  },
+  "artLight": {
+    "width": 281,
+    "height": 281,
+    "context": "player",
+    "constant": "imgChamferedPanel"
+  },
+  "headerDark": {
+    "width": 388,
+    "height": 15,
+    "context": "dark",
+    "constant": "imgVector1"
+  },
+  "more": {
+    "width": 4,
+    "height": 18,
+    "context": "detail",
+    "constant": "imgIconMore"
+  },
+  "headerLight": {
+    "width": 388,
+    "height": 15,
+    "context": "figmaSongs",
+    "constant": "imgVector1"
+  },
+  "box": {
+    "width": 18,
+    "height": 18,
+    "context": "add",
+    "constant": "imgIconBox"
+  },
+  "accentDark": {
+    "width": 50,
+    "height": 16,
+    "context": "dark",
+    "constant": "imgVector2"
+  },
+  "accentLight": {
+    "width": 50,
+    "height": 16,
+    "context": "figmaSongs",
+    "constant": "imgVector2"
+  },
+  "ringInner": {
+    "width": 177,
+    "height": 177,
+    "context": "player",
+    "constant": "imgVector4"
+  },
+  "panelLight": {
+    "width": 389,
+    "height": 73,
+    "context": "figmaSongs",
+    "constant": "imgChamferedPanel"
+  },
+  "noteLarge": {
+    "width": 56,
+    "height": 62,
+    "context": "player",
+    "constant": "imgIconNote"
+  }
+}
