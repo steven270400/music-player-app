@@ -48,6 +48,6 @@ The optional standalone build is a locally signed test artifact. It is not a pro
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
-##preview app
+## Preview App
 <img width="1312" height="1199" alt="graphite_circuit_reference" src="https://github.com/user-attachments/assets/17ec15be-be2e-45f5-80da-a9476af2f8e4" /><img width="412" height="800" alt="vinyl-paused" src="https://github.com/user-attachments/assets/d77f8183-ed9d-4022-bf39-b1418be8d36c" />
 
